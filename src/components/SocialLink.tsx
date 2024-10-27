@@ -1,9 +1,9 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-const SocialLink = () => {
+const SocialLink: React.FC = () => {
   const links = [
     {
       id: 1,

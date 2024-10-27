@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link } from 'react-scroll';
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar: React.FC = () => {
   const [nav, setNav] = useState<boolean>(false);
@@ -13,23 +13,23 @@ const Navbar: React.FC = () => {
   const links: LinkItem[] = [
     {
       id: 1,
-      link: 'Home',
+      link: "Home",
     },
     {
       id: 2,
-      link: 'About',
+      link: "About",
     },
     {
       id: 3,
-      link: 'Skill',
+      link: "Skill",
     },
     {
       id: 4,
-      link: 'Works',
+      link: "Works",
     },
     {
       id: 5,
-      link: 'Contact',
+      link: "Contact",
     },
   ];
 

@@ -22,8 +22,15 @@ import Typescript from "../assets/Typescript.png";
 // import Swagger from "../assets/swagger.png";
 // import Jest from "../assets/jest.png";
 
-const Skill = () => {
-  const techs = [
+interface Tech {
+  id: number;
+  src: string;
+  title: string;
+  style: string;
+}
+
+const Skill: React.FC = () => {
+  const techs: Tech[] = [
     {
       id: 1,
       src: html,
@@ -46,28 +53,24 @@ const Skill = () => {
       id: 4,
       src: bootstrap,
       title: "Bootstrap",
-
       style: "shadow-purple-600",
     },
     {
       id: 5,
       src: react,
       title: "React",
-
       style: "shadow-cyan-400",
     },
     {
       id: 6,
       src: mongoDb,
       title: "MongoDB",
-
       style: "shadow-green-500",
     },
     {
       id: 7,
       src: expressjs,
       title: "Express.js",
-
       style: "shadow-gray-500",
     },
     {
@@ -80,38 +83,33 @@ const Skill = () => {
       id: 10,
       src: github,
       title: "GitHub",
-
       style: "shadow-gray-700",
     },
     {
       id: 11,
       src: Typescript,
       title: "Typescript",
-
       style: "shadow-blue-600",
     },
     {
       id: 12,
       src: graphQl,
       title: "GraphQl",
-
       style: "shadow-pink-600",
     },
-
     {
       id: 13,
       src: Git,
       title: "Git",
-
       style: "shadow-orange-600",
     },
     {
       id: 14,
       src: Tailwind,
       title: "Tailwind",
-
       style: "shadow-teal-400",
     },
+
     // {
     //   id: 19,
     //   src: PostgreSQL,
@@ -189,7 +187,7 @@ const Skill = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt={title} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}

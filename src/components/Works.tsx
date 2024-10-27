@@ -1,64 +1,14 @@
 import React from "react";
-import freshHubImage from "../projects/fresh Hub project1.png";
 import MernauthImage from "../projects/Mern Auth.png";
-import NetflixImage from "../projects/Netflix.png";
-import TudoImage from "../projects/Tudo.png";
-import EdistrictImage from "../projects/Edistrict.png";
 
-import IMDBImage from "../projects/IMDB .png";
-import instagramImage from "../projects/Instagram.png";
-import GitImage from "../projects/GitHub.png";
-
-const Works = () => {
+const Works: React.FC = () => {
   const WorkItems = [
-    // {
-    //   title: "Fresh Hub",
-    //   description: "E-commerce",
-    //   imageUrl: freshHubImage,
-    //   githubUrl: "https://github.com/fayizIT/FV-project",
-    // },
     {
       title: "Mern Auth",
       description: "User-Management System",
       imageUrl: MernauthImage,
-      githubUrl: "https://github.com/fayizIT/mern-admin-user-management",
+      githubUrl: "https://www.linkedin.com/in/mohamed-musthafa-a-03953a139",
     },
-    // {
-    //   title: "GitHub Clone",
-    //   description: "GitHub",
-    //   imageUrl: GitImage,
-    //   githubUrl: "https://github.com/fayizIT/Git-Clone",
-    // },
-    // {
-    //   title: "IMDB Website",
-    //   description: "Imdb Website",
-    //   imageUrl: IMDBImage,
-    //   githubUrl: "https://github.com/fayizIT/IMDB-Project",
-    // },
-    // {
-    //   title: "Netflix",
-    //   description: "Netflix",
-    //   imageUrl: NetflixImage,
-    //   githubUrl: "https://github.com/fayizIT/netflix",
-    // },
-    // {
-    //   title: "Tudo",
-    //   description: "Tudo",
-    //   imageUrl: TudoImage,
-    //   githubUrl: "https://github.com/fayizIT/my-todo-app",
-    // },
-    // {
-    //   title: "Edistrict Static Website",
-    //   description: "E-district Application",
-    //   imageUrl: EdistrictImage,
-    //   githubUrl: "https://github.com/fayizIT/Edistrict-website",
-    // },
-    // {
-    //   title: "Instagram",
-    //   description: "Instagram-Application",
-    //   imageUrl: instagramImage,
-    //   githubUrl: "https://github.com/fayizIT/mern-admin-user-management",
-    // },
   ];
 
   return (
