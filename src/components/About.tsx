@@ -16,7 +16,7 @@ const About: React.FC = () => {
         </div>
         <div className="text-xl mt-10 mb-10 leading-relaxed">
           <p className="mb-6">
-            I passionate web developer who embarked on the journey
+            Hello! I am a passionate web developer who embarked on the journey
             of web development in 2021. I have 1.4 years experience as Software
             Engineer at Naberly technolgies pvt ltd. where I acquired extensive
             knowledge of both frontend and backend technologies.
