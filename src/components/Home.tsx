@@ -31,7 +31,7 @@ const Home: React.FC = () => {
               duration={500}
               className="group text-white w-fit px-8 py-4 text-lg font-semibold rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center space-x-2"
             >
-              <span>Explore My Skills</span>
+              <span>Explore My Skills...</span>
               <MdOutlineKeyboardArrowRight
                 size={25}
                 className="group-hover:rotate-90 transition-transform duration-300"
