@@ -18,7 +18,7 @@ const Home: React.FC = () => {
             I am a skilled full-stack developer with 2 years of experience in
             building dynamic and responsive web applications. My core tech stack
             includes MERN (MongoDB, Express.js, React, Node.js), along with
-            GraphQL and MongoDB, enabling me to deliver robust, scalable, and
+            GraphQL and CosmosDB, enabling me to deliver robust, scalable, and
             maintainable web solutions. I excel at developing efficient back-end
             services and intuitive front-end interfaces. I am committed to
             continuous learning and staying updated with the latest industry

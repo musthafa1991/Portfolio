@@ -17,27 +17,16 @@ const About: React.FC = () => {
         <div className="text-xl mt-10 mb-10 leading-relaxed">
           <p className="mb-6">
             Hello! I am a passionate web developer who embarked on the journey
-            of web development in January 2022. I successfully completed the
-            Frontend with React Js course at Besant Technology Pvt Ltd.
-            Subsequently, I fully immersed myself in MERN stack development,
-            gaining valuable experience in Node.js, Express.js, and MongoDB,
-            where I acquired extensive knowledge of both frontend and backend
-            technologies.
+            of web development in 2021. I have 1.4 years experience as Software
+            Engineer at Naberly technolgies pvt ltd. where I acquired extensive
+            knowledge of both frontend and backend technologies.
           </p>
           <p className="mb-6">
             My coding journey has ignited a deep interest in learning diverse
             technologies. I am continuously seeking opportunities to enhance my
             web development skills and stay updated with the latest trends.
           </p>
-          <p>
-            Specializing in front-end web design and development, I take pride
-            in crafting pixel-perfect web pages using beautiful, semantic HTML,
-            CSS, and JavaScript. My expertise also extends to branding, where I
-            find joy in assisting individuals with their branding and design
-            needs.
-          </p>
         </div>
-
         <div className="pb-8 mt-12">
           <p className="text-5xl font-bold inline border-b-4 border-cyan-500">
             <span className="text-cyan-300">Education and Experience</span>
@@ -45,18 +34,38 @@ const About: React.FC = () => {
         </div>
         <div className="text-xl mt-10 mb-10 leading-relaxed">
           <p className="mb-6">
-            I hold a Bachelor's degree in Mechanical Engineering, which I
-            completed in 2015. In addition to my academic background, I have
-            gained 1.5 years of experience as fullstack developer at Naberly
-            Technologies pvt ltd.also I have gained 6 years of experience in
-            Non-It at Different Industries.
+            <strong>Education</strong>
+            <br />- <strong>MERN Stack Development Course</strong>, 2021 - 2022
+            <br />
+            Completed an intensive course covering MongoDB, Express.js, React,
+            and Node.js at GUVI GEEK NETWORK PRIVATE LIMITED, Chennai.
+            <br />
+            <br />- <strong>Bachelor of Mechanical Engineering</strong>, 2011 -
+            2015
+            <br />
+            Studied at KSR institute for engineering and technology under the
+            Anna University, chennai and Graduated with 63 %
+            <br />
           </p>
           <p className="mb-6">
-            {/* Currently, I am working as a freelancer, primarily focusing on
-            backend development with Node.js and PostgreSQL. My responsibilities
-            include database design and API documentation. This experience
-            contributes significantly to my well-rounded skill set in web
-            development. */}
+            <strong>Professional Experience</strong>
+            <br />- <strong>Full-Stack Developer</strong> at{" "}
+            <strong>Naberly Technologies Pvt Ltd</strong>, Oct 2022 - Jan
+            2024(1.4 years)
+            <br />
+            Developing and maintaining full-stack applications using React,Node
+            Js,GraphQl,Cosmos DB and Collaborating with cross-functional teams
+            to design scalable solutions, implement new features, and improve
+            user experiences. Integrated APIs, including GraphQL, for dynamic
+            and efficient data handling.
+            <br />
+            <br />- <strong>Previous Work Experience</strong> (2015 - 2021)
+            <br />
+            Accumulated 6 years in non-IT roles, bringing a diverse set of
+            skills such as project management, problem-solving, and a
+            customer-focused mindset. Transitioned into the tech field with a
+            strong drive to leverage transferable skills and learn new
+            technologies.
           </p>
           <p>
             This online portfolio is a testament to my knowledge and skills in
