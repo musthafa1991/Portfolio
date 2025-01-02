@@ -1,13 +1,22 @@
 import React from "react";
 import MernauthImage from "../projects/Mern Auth.png";
+import letweChat from "../projects/letweChat.png";
 
 const Works: React.FC = () => {
   const WorkItems = [
     {
-      title: "Mern Auth",
-      description: "User-Management System",
+      title: "Let We Chat",
+      description: "Chat App",
+      imageUrl: letweChat,
+      websiteUrl: "https://letwechat-app.onrender.com",
+      githubUrl: "https://github.com/musthafa1991/letwechat-app",
+    },
+    {
+      title: "User Acitivity",
+      description: "User-Acitivity-Logging System",
       imageUrl: MernauthImage,
-      githubUrl: "https://www.linkedin.com/in/mohamed-musthafa-a-03953a139",
+      websiteUrl: "https://useractivitylogs.netlify.app",
+      githubUrl: "https://github.com/musthafa1991/userActivityLogs-frontend",
     },
   ];
 
@@ -29,12 +38,20 @@ const Works: React.FC = () => {
               key={index}
               className="shadow-md shadow-gray-600 hover:scale-105 duration-500 py-2 rounded-lg bg-gray-800"
             >
-              <img
-                src={item.imageUrl}
-                alt={item.title}
-                className="w-60 h-auto mx-auto rounded-md"
-              />
-              <h3 className="text-xl font-bold mt-4">{item.title}</h3>
+              <a
+                href={item.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={item.imageUrl}
+                  alt={item.title}
+                  className="w-60 h-auto mx-auto rounded-md cursor-pointer"
+                />
+                <h3 className="text-xl font-bold mt-4 hover:underline">
+                  {item.title}
+                </h3>
+              </a>
               <p className="text-gray-400 mt-2">{item.description}</p>
               <div className="mt-4">
                 <a
